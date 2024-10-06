@@ -12,7 +12,7 @@
       body {
         margin: 0;
         font-family: "Poppins", sans-serif;
-        background-color: #1c1c1c;
+        background: linear-gradient(135deg, #1a1b32, #2a2b50, #3c3d6e, #4e4f8c);
         color: #fff;
         display: flex;
         justify-content: center;
@@ -58,13 +58,12 @@
         gap: 20px;
         margin-top: 30px;
       }
-      .social-icons a {
-        color: #fff;
-        font-size: 24px;
-        transition: color 0.3s ease;
+      .social-icons img {
+        width: 30px;
+        transition: transform 0.3s ease;
       }
-      .social-icons a:hover {
-        color: #1da1f2;
+      .social-icons img:hover {
+        transform: scale(1.1);
       }
     </style>
   </head>
@@ -95,23 +94,16 @@
         >
       </div>
       <div class="social-icons">
-        <!-- Email Icon -->
         <a href="mailto:mhmmadmauliddin@gmail.com">
-            <img src="email.png" alt="Email Icon" style="width: 30px;">
+          <img src="email.png" alt="Email Icon" />
         </a>
-    
-        <!-- GitHub Icon -->
         <a href="https://github.com/maulid26" target="_blank">
-            <img src="github.png" alt="GitHub Icon" style="width: 30px;">
+          <img src="github.png" alt="GitHub Icon" />
         </a>
-    
-        <!-- LinkedIn Icon -->
         <a href="https://www.linkedin.com/in/muh-mauliddin" target="_blank">
-            <img src="linkedin.png" alt="LinkedIn Icon" style="width: 30px;">
+          <img src="linkedin.png" alt="LinkedIn Icon" />
         </a>
+      </div>
     </div>
-    
-
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </body>
 </html>
